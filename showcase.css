@@ -346,3 +346,11 @@ body.preloader-site {
     font-size: large;
     padding-bottom: 0.5rem;
 }
+
+.work-item {
+    filter: grayscale(100%);
+}
+
+.work-item:hover {
+    filter: grayscale(0%);
+}
