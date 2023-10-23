@@ -156,7 +156,11 @@
                     <strong>Call me</strong>
                   </p>
                   <p class="subheading">
-                    610-506-3997
+                    <SCRIPT LANGUAGE="JavaScript">
+                      const str3 = ['610','506','3997'];
+                      const str4 = str3.join('-');
+                      document.write('<a href=\"tel:' + str4 + '\">' + str4 + '</a>');
+                    </SCRIPT>
                   </p>
                 </div>
                 <div class="column">
@@ -164,7 +168,11 @@
                     <strong>Email Me</strong>
                   </p>
                   <p class="subheading">
-                    b@bretany.com
+                    <SCRIPT LANGUAGE="JavaScript">
+                      const str1 = ['Bretany', 'BPilko.com'];
+                      const str2 = str1.join('@');
+                      document.write('<a href=\"mailto:' + str2 + '\">' + str2 + '</a>');
+                    </SCRIPT>
                   </p>
                 </div>
                </div>
